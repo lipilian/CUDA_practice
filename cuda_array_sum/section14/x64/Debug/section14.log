@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (section14.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\kernel.cu" 
+  kernel.cu
+  common.cpp
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(157,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(174,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(175,7): warning C4101:  'value': unreferenced local variable
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(197,17): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(202,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(205,22): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(210,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\section14\common.cpp(217,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+  section14.vcxproj -> C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\section14\x64\Debug\gpu_summary.exe

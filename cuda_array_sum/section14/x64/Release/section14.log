@@ -1,0 +1,16 @@
+﻿  common.cpp
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(157,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(174,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(175,7): warning C4101:  'value': unreferenced local variable
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(197,17): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(202,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(205,22): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(210,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\section14\common.cpp(217,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+     Creating library C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\x64\Release\gpu_summary.lib and object C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\x64\Release\gpu_summary.exp
+  Generating code
+  120 of 126 functions (95.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  section14.vcxproj -> C:\Users\hongl\OneDrive\Documents\Visual Studio 2019\Projects\Cuda_test\cuda_array_sum\x64\Release\gpu_summary.exe
