@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\kernel.cu" 
+  kernel.cu
+C:/Users/liuhong2/Documents/Visual Studio 2019/Projects/cuda_array_sum/section14/kernel.cu(70): warning C4018: '<': signed/unsigned mismatch
+  common.cpp
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(157,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(174,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(175,7): warning C4101:  'value': unreferenced local variable
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(197,17): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(202,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(205,22): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(210,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\section14\common.cpp(217,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+     Creating library C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\x64\Release\gpu_summary.lib and object C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\x64\Release\gpu_summary.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 129 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  section14.vcxproj -> C:\Users\liuhong2\Documents\Visual Studio 2019\Projects\cuda_array_sum\x64\Release\gpu_summary.exe
