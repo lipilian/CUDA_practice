@@ -8,4 +8,4 @@ add_array_ele_together_cuda : summation one huge array to single result
 
 add_array_ele_together_cuda_improved_without_wrap_diver: improved huge array summuation without wrap divergence
 
-
+add_array_ele_together_cuda_unrolling_wrap_looping: optimized summation code
